@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 350px;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cajas{
+    border: 2px solid black;
+    height: 500px;
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.cajas img{
+    height: 350px;
+    width: 100%;
+}
+
+.boton{
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.botones{
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: thistle;
+    color: white;
+}
