@@ -56,9 +56,113 @@ header img{
     color: white;
 }
 
-@media (max-width:599px){
+@media (max-width:599px) /*pixel 2*/{
     *{
         margin: 0px;
         padding: 0px;
     }
+
+header{
+    height: 150px;
+    width: 100%;
+}
+
+header img{
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cajas{
+    border: 2px solid black;
+    height: 530px;
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.boton{
+text-decoration: none;
+border-radius: 5px;
+color: black;
+border: 1px solid black;
+padding: 5px;
+}
+
+.botones{
+margin-top: 15px;
+text-align: center;
+}
+
+
+.boton:hover{
+    background-color: thistle;
+    color: white;
+}
+}
+
+@media (min-width:600px) and (max-width:1000px)/*ipad*/{
+
+*{ 
+    margin:0px;
+    padding:0px;   
+}
+
+.contenedor{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajas{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    height: 350px;
+    width: 90%;
+    margin-top: 2.5em;
+    margin-bottom: 1em;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.cajas img{
+    width: 40%;
+}
+
+.nombre{
+    padding: 15px;
+}
+
+.nombre h3{
+    font-size: 2em;
+}
+
+.boton{
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+    
+.botones{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: thistle;
+    color: white;
+}
 }
